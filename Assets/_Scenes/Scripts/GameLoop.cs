@@ -89,6 +89,21 @@ namespace _Scenes.Scripts
             switchPlayers();
             initializeSanctionsMoves();
             hud.setFactionName(getCurrentPlayer().getFactionName());
+            loadResourcesAmount(hud.getChemAmount(), hud.getGuanoAmount(), hud.getPlantAmount());
+        }
+
+        public void storeResourcesAmount(int chemAmount, int guanoAmount, int plantAmount)
+        {
+            getCurrentPlayer().chemAmount = chemAmount;
+            getCurrentPlayer().guanoAmount = guanoAmount;
+            getCurrentPlayer().plantAmount = plantAmount;
+        }
+
+        public void loadResourcesAmount(int chemAmount, int guanoAmount, int plantAmount)
+        {
+            hud.setChemAmount(chemAmount);
+            hud.setGuanoAmount(guanoAmount);
+            hud.setPlantAmount(plantAmount);
         }
         
         
@@ -106,6 +121,7 @@ namespace _Scenes.Scripts
         private void handleEndTurnButton()
         {
             isMovementPhase = false;
+            storeResourcesAmount(hud.getChemAmount(), hud.getGuanoAmount(), hud.getPlantAmount());
             initializeTurn();
         }
     }

@@ -11,6 +11,10 @@ namespace _Scenes.Scripts
         [SerializeField] private int maxCharactersAtPlay = 5;
         [SerializeField] private string factionName;
 
+        public int chemAmount = 0;
+        public int plantAmount = 0;
+        public int guanoAmount = 0;
+
         private List<CharacterToken> characterTokens = new List<CharacterToken>();
 
         public Faction getFaction()

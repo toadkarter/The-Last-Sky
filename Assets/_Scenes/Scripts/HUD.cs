@@ -13,13 +13,23 @@ namespace _Scenes.Scripts
         [SerializeField] public string numberOfMovesLabel = "Sanctioned Moves: ";
         [SerializeField] public TextMeshProUGUI factionNameText = null;
         [SerializeField] public Button endTurnButton = null;
+        [SerializeField] public TextMeshProUGUI plantText = null;
+        [SerializeField] public TextMeshProUGUI chemText = null;
+        [SerializeField] public TextMeshProUGUI guanoText = null;
+
 
         private int numberOfMoves = 0;
-        
+        private int chemAmount = 0;
+        private string chemTextLabel = "Chem: ";
+        private int plantAmount = 0;
+        private string plantTextLabel = "Plant: ";
+        private int guanoAmount = 0;
+        private string guanoTextLabel = "Guano: ";
+
         private void Start()
         {
             infoPanel.SetVisibility(false);
-            
+
         }
 
         public Button getSpawnButton()
@@ -48,6 +58,39 @@ namespace _Scenes.Scripts
             return endTurnButton;
         }
 
-        public InfoPanel InfoPanel => infoPanel;
+        public void setChemAmount(int amount)
+        {
+            chemText.text = chemText.text + amount;
+            chemAmount = amount;
+        }
+
+        public void setPlantAmount(int amount)
+        {
+            plantText.text = plantTextLabel + amount;
+            plantAmount = amount;
+        }
+
+        public int getChemAmount()
+        {
+            return chemAmount;
+        }
+
+        public int getGuanoAmount()
+        {
+            return guanoAmount;
+        }
+
+        public void setGuanoAmount(int amount)
+        {
+            guanoText.text = guanoTextLabel + amount;
+            guanoAmount = amount;
+        }
+
+        public int getPlantAmount()
+        {
+            return plantAmount;
+        }
+
+    public InfoPanel InfoPanel => infoPanel;
     }
 }
