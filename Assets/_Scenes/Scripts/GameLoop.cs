@@ -35,7 +35,7 @@ namespace _Scenes.Scripts
             {
                 if (isMovementPhase)
                 {
-                    
+                    handleMoveToTile(tile);
                     return;
                 }
                 tile.Act();
@@ -43,7 +43,7 @@ namespace _Scenes.Scripts
             }
 
             CharacterToken characterToken = gameObject.GetComponent<CharacterToken>();
-            if (characterToken != null)
+            if (characterToken != null && characterToken.GetFaction() == getCurrentPlayer().getFaction())
             {
                 isMovementPhase = true;
                 currentCharacterToken = characterToken;
@@ -58,6 +58,18 @@ namespace _Scenes.Scripts
         private void handleSpawnButtonClicked()
         {
             getCurrentPlayer().spawnCharacterToken();
+        }
+
+        private void handleMoveToTile(Tile tile)
+        {
+            Vector3 tokenTransform = currentCharacterToken.transform.position;
+            Vector3 tileToMoveTransform = tile.transform.position;
+
+            if (Vector3.Distance(tokenTransform, tileToMoveTransform) == 1)
+            {
+                currentCharacterToken.moveToDestination(tileToMoveTransform);
+                return;
+            }
         }
     }
 }

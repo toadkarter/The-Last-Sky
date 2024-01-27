@@ -19,13 +19,15 @@ namespace _Scenes.Scripts
 
         public void spawnCharacterToken()
         {
-            if (characterTokens.Count + 1 > maxCharactersAtPlay)
+            if (characterTokens.Count + 1 > maxCharactersAtPlay || spawnerTile.getIsOccupied())
             {
                 // TODO: Add some sort of error notification saying that you are trying to spawn too many players.
+                Debug.Log("Illegal Action");
                 return;
             }
             GameObject gameObject = Instantiate(characterTokenClass, spawnerTile.transform);
             CharacterToken characterToken = gameObject.GetComponent<CharacterToken>();
+            spawnerTile.setIsOccupied(true);
             characterTokens.Add(characterToken);
         }
     }
