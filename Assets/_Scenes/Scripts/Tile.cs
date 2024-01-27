@@ -15,6 +15,7 @@ namespace _Scenes.Scripts
         
         private List<int> angles = new List<int>{0, 90, 180, 270};
         private Transform transform = null;
+        private bool isOccupied = false;
 
         private void Start()
         {
@@ -39,9 +40,14 @@ namespace _Scenes.Scripts
             return description;
         }
 
-        public bool getHasInfo()
+        public bool getHasUIInfo()
         {
             return hasInfo;
+        }
+
+        public bool getIsOccupied()
+        {
+            return isOccupied;
         }
     }
 }

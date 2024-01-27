@@ -78,5 +78,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   title: Countryside
-  description: This is the countryside tile.
+  description: This is an amended version of the text
   hasInfo: 1

@@ -8,6 +8,7 @@ namespace _Scenes.Scripts
     {
         [SerializeField] private TextMeshProUGUI title;
         [SerializeField] private TextMeshProUGUI description;
+        [SerializeField] private Button quitButton;
         
         public void SetVisibility(bool on)
         {
@@ -20,8 +21,8 @@ namespace _Scenes.Scripts
             {
                 return;
             }
-            Debug.Log(tile);
-            if (!tile.getHasInfo())
+
+            if (!tile.getHasUIInfo())
             {
                 return;
             }
