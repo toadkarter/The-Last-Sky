@@ -7,6 +7,7 @@ namespace _Scenes.Scripts
     {
         [SerializeField] private Player playerClass = null;
         [SerializeField] private ClickDetector clickDetector = null;
+        [SerializeField] private HUD hud;
          
         private Player player1 = null;
         private Player player2 = null;
@@ -18,7 +19,12 @@ namespace _Scenes.Scripts
 
         public void OnValidClick(GameObject gameObject)
         {
-            Debug.Log(gameObject);
+            Tile tile = gameObject.GetComponent<Tile>();
+            if (tile != null)
+            {
+                Debug.Log(tile);
+                hud.InfoPanel.ShowInfo(tile);
+            }
         }
     }
 }

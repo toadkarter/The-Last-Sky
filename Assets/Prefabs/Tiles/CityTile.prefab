@@ -77,3 +77,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  title: City
+  description: This is the tile for city stuff.
+  hasInfo: 1
