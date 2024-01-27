@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = System.Random;
 
 namespace _Scenes.Scripts
 {
@@ -14,9 +15,11 @@ namespace _Scenes.Scripts
 
         private List<Player> players;
         
-        private int currentPlayerIndex = 0;
+        private int currentPlayerIndex = 1;
 
         private float tileSize;
+
+        private Random random = new Random();
 
         private bool isMovementPhase = false;
         private CharacterToken currentCharacterToken = null;
@@ -26,6 +29,8 @@ namespace _Scenes.Scripts
             players = new List<Player>{ player1, player2 };
             clickDetector.OnValidClick += OnValidClick;
             hud.getSpawnButton().onClick.AddListener(handleSpawnButtonClicked);
+            
+            initializeTurn();
         }
 
         public void OnValidClick(GameObject gameObject)
@@ -38,6 +43,7 @@ namespace _Scenes.Scripts
                     handleMoveToTile(tile);
                     return;
                 }
+                
                 tile.Act();
                 hud.InfoPanel.ShowInfo(tile);
             }
@@ -62,14 +68,37 @@ namespace _Scenes.Scripts
 
         private void handleMoveToTile(Tile tile)
         {
+            if (hud.getNumberOfMoves() <= 0)
+            {
+                return;
+            }
+            
             Vector3 tokenTransform = currentCharacterToken.transform.position;
             Vector3 tileToMoveTransform = tile.transform.position;
 
             if (Vector3.Distance(tokenTransform, tileToMoveTransform) == 1)
             {
                 currentCharacterToken.moveToDestination(tileToMoveTransform);
-                return;
+                hud.setNumberOfMovesText(hud.getNumberOfMoves() - 1);
             }
+        }
+
+        public void initializeTurn()
+        {
+            switchPlayers();
+            initializeSanctionsMoves();
+        }
+        
+        
+        private void switchPlayers()
+        {
+            currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
+        }
+
+        private void initializeSanctionsMoves()
+        {
+            int sanctionedMoves = random.Next(1, 6);
+            hud.setNumberOfMovesText(sanctionedMoves);
         }
     }
 }
