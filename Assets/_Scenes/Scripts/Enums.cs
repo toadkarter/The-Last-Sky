@@ -5,4 +5,12 @@
         Police,
         Terrorist,
     }
+
+    public enum Resource
+    {
+        None,
+        Chem,
+        Plant,
+        Guano,
+    }
 }
