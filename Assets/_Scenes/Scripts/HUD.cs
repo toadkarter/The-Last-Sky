@@ -11,6 +11,8 @@ namespace _Scenes.Scripts
         [SerializeField] public Button spawnButton = null;
         [SerializeField] public TextMeshProUGUI numberOfMovesText = null;
         [SerializeField] public string numberOfMovesLabel = "Sanctioned Moves: ";
+        [SerializeField] public TextMeshProUGUI factionNameText = null;
+        [SerializeField] public Button endTurnButton = null;
 
         private int numberOfMoves = 0;
         
@@ -34,6 +36,16 @@ namespace _Scenes.Scripts
         public int getNumberOfMoves()
         {
             return numberOfMoves;
+        }
+
+        public void setFactionName(string factionName)
+        {
+            factionNameText.text = factionName;
+        }
+
+        public Button getEndTurnButton()
+        {
+            return endTurnButton;
         }
 
         public InfoPanel InfoPanel => infoPanel;

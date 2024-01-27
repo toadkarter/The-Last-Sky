@@ -9,12 +9,18 @@ namespace _Scenes.Scripts
         [SerializeField] private Tile spawnerTile;
         [SerializeField] private GameObject characterTokenClass;
         [SerializeField] private int maxCharactersAtPlay = 5;
+        [SerializeField] private string factionName;
 
         private List<CharacterToken> characterTokens = new List<CharacterToken>();
 
         public Faction getFaction()
         {
             return faction;
+        }
+
+        public string getFactionName()
+        {
+            return factionName;
         }
 
         public void spawnCharacterToken()

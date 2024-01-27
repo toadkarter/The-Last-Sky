@@ -29,6 +29,7 @@ namespace _Scenes.Scripts
             players = new List<Player>{ player1, player2 };
             clickDetector.OnValidClick += OnValidClick;
             hud.getSpawnButton().onClick.AddListener(handleSpawnButtonClicked);
+            hud.getEndTurnButton().onClick.AddListener(handleEndTurnButton);
             
             initializeTurn();
         }
@@ -87,6 +88,7 @@ namespace _Scenes.Scripts
         {
             switchPlayers();
             initializeSanctionsMoves();
+            hud.setFactionName(getCurrentPlayer().getFactionName());
         }
         
         
@@ -99,6 +101,12 @@ namespace _Scenes.Scripts
         {
             int sanctionedMoves = random.Next(1, 6);
             hud.setNumberOfMovesText(sanctionedMoves);
+        }
+
+        private void handleEndTurnButton()
+        {
+            isMovementPhase = false;
+            initializeTurn();
         }
     }
 }
