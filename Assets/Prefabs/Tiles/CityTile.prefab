@@ -71,6 +71,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1393708853010745047}
   m_SourcePrefab: {fileID: 100100000, guid: 19a5c86d8ea9bd04db63b9ec15bc5a14, type: 3}
+--- !u!23 &2749953301618844502 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 19a5c86d8ea9bd04db63b9ec15bc5a14, type: 3}
+  m_PrefabInstance: {fileID: 3596228021239283666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4407114754951791235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 19a5c86d8ea9bd04db63b9ec15bc5a14, type: 3}
@@ -91,6 +96,9 @@ MonoBehaviour:
   title: City
   description: This is the tile for city stuff.
   hasInfo: 1
+  hoverMaterial: {fileID: 2100000, guid: 6b397565703c3354288c44d72d4bd2b4, type: 2}
+  clickMaterial: {fileID: 2100000, guid: 6eeb5a69dc429cc4c8effa8b21cfa8d3, type: 2}
+  meshRenderer: {fileID: 2749953301618844502}
 --- !u!65 &1393708853010745047
 BoxCollider:
   m_ObjectHideFlags: 0

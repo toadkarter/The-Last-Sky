@@ -22,7 +22,7 @@ namespace _Scenes.Scripts
             Tile tile = gameObject.GetComponent<Tile>();
             if (tile != null)
             {
-                Debug.Log(tile);
+                tile.Act();
                 hud.InfoPanel.ShowInfo(tile);
             }
         }

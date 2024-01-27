@@ -12,13 +12,33 @@ namespace _Scenes.Scripts
         [SerializeField] private string title = null;
         [SerializeField] private string description = null;
         [SerializeField] private bool hasInfo = false;
-        
+        [SerializeField] private Material hoverMaterial = null;
+        [SerializeField] private Material clickMaterial = null;
+        [SerializeField] private MeshRenderer meshRenderer = null;
+        [SerializeField] private SpawnComponent spawnComponent = null;
+
+        private List<Material> currentMaterials = new List<Material>();
+        private List<Material> hoverMaterials = new List<Material>();
+        private List<Material> clickMaterials = new List<Material>();
         private List<int> angles = new List<int>{0, 90, 180, 270};
         private Transform transform = null;
         private bool isOccupied = false;
 
         private void Start()
         {
+            spawnComponent = GetComponent<SpawnComponent>();
+            meshRenderer = GetComponent<MeshRenderer>();
+            meshRenderer.GetMaterials(currentMaterials);
+
+            hoverMaterials.Add(hoverMaterial);
+            clickMaterials.Add(clickMaterial);
+            
+            foreach (Material currentMaterial in currentMaterials)
+            {
+                hoverMaterials.Add(currentMaterial);
+                clickMaterials.Add(currentMaterial);
+            }
+
             transform = GetComponent<Transform>();
             int index = Random.Range(0, angles.Count - 1);
             Debug.Log(angles[index]);
@@ -27,7 +47,6 @@ namespace _Scenes.Scripts
 
         public void Act()
         {
-            
         }
 
         public string getTitle()
