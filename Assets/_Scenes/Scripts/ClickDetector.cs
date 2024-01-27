@@ -32,7 +32,7 @@ namespace _Scenes.Scripts
                     {
                         return;
                     }
-                    
+
                     IClickable clickableObject = raycastHit.transform.gameObject.GetComponent<IClickable>();
 
                     if (clickableObject != null)
