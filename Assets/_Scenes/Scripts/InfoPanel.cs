@@ -1,6 +1,7 @@
-﻿using TMPro;
+﻿using System;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 namespace _Scenes.Scripts
 {
@@ -9,7 +10,12 @@ namespace _Scenes.Scripts
         [SerializeField] private TextMeshProUGUI title;
         [SerializeField] private TextMeshProUGUI description;
         [SerializeField] private Button quitButton;
-        
+
+        private void Start()
+        {
+            quitButton.onClick.AddListener(OnQuitButtonClicked);
+        }
+
         public void SetVisibility(bool on)
         {
             gameObject.SetActive(on);
@@ -30,6 +36,11 @@ namespace _Scenes.Scripts
             SetVisibility(true);
             title.SetText(tile.getTitle());
             description.SetText(tile.getDescription());
+        }
+
+        public void OnQuitButtonClicked()
+        {
+            SetVisibility(false);
         }
     }
 }
