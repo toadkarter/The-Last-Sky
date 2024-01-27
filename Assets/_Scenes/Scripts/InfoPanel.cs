@@ -62,8 +62,10 @@ namespace _Scenes.Scripts
             spawnButton.gameObject.SetActive(false);
             
             SpawnComponent spawnComponent = currentTile.GetComponent<SpawnComponent>();
-            spawnComponent.spawnCharacterToken();
-            
+            CharacterToken characterToken = spawnComponent.spawnCharacterToken();
+            characterToken.SetCurrentTile(currentTile);
+            currentTile.setIsOccupied(true);
+
             OnQuitButtonClicked();
         }
     }

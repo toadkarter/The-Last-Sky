@@ -6,9 +6,10 @@ namespace _Scenes.Scripts
     {
         [SerializeField] private GameObject characterTokenClass = null;
 
-        public void spawnCharacterToken()
+        public CharacterToken spawnCharacterToken()
         {
-            Instantiate(characterTokenClass, transform);
+            GameObject characterToken = Instantiate(characterTokenClass, transform);
+            return characterToken.GetComponent<CharacterToken>();
         }
     }
 }

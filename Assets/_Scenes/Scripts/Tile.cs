@@ -41,7 +41,6 @@ namespace _Scenes.Scripts
 
             transform = GetComponent<Transform>();
             int index = Random.Range(0, angles.Count - 1);
-            Debug.Log(angles[index]);
             transform.rotation.Set(transform.rotation.x, angles[index], transform.rotation.z, transform.rotation.w);
         }
 
@@ -67,6 +66,11 @@ namespace _Scenes.Scripts
         public bool getIsOccupied()
         {
             return isOccupied;
+        }
+
+        public void setIsOccupied(bool inIsOccupied)
+        {
+            isOccupied = inIsOccupied;
         }
     }
 }
