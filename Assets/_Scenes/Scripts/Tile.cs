@@ -16,13 +16,20 @@ namespace _Scenes.Scripts
         [SerializeField] private Material clickMaterial = null;
         [SerializeField] private MeshRenderer meshRenderer = null;
         [SerializeField] private SpawnComponent spawnComponent = null;
-
+        [SerializeField] private Resource resource = Resource.None;
+        
         private List<Material> currentMaterials = new List<Material>();
         private List<Material> hoverMaterials = new List<Material>();
         private List<Material> clickMaterials = new List<Material>();
         private List<int> angles = new List<int>{0, 90, 180, 270};
         private Transform transform = null;
         private bool isOccupied = false;
+
+        private Resource getResource()
+        {
+            return resource;
+        }
+        
 
         private void Start()
         {

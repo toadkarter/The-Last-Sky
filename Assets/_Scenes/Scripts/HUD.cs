@@ -29,7 +29,6 @@ namespace _Scenes.Scripts
         private void Start()
         {
             infoPanel.SetVisibility(false);
-
         }
 
         public Button getSpawnButton()
