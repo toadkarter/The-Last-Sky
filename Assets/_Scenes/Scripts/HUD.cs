@@ -16,6 +16,7 @@ namespace _Scenes.Scripts
         [SerializeField] public TextMeshProUGUI plantText = null;
         [SerializeField] public TextMeshProUGUI chemText = null;
         [SerializeField] public TextMeshProUGUI guanoText = null;
+        [SerializeField] public Button harvestButton = null;
 
 
         private int numberOfMoves = 0;
@@ -29,6 +30,7 @@ namespace _Scenes.Scripts
         private void Start()
         {
             infoPanel.SetVisibility(false);
+            harvestButton.gameObject.SetActive(false);
         }
 
         public Button getSpawnButton()
@@ -45,6 +47,11 @@ namespace _Scenes.Scripts
         public int getNumberOfMoves()
         {
             return numberOfMoves;
+        }
+
+        public Button getHarvestButton()
+        {
+            return harvestButton;
         }
 
         public void setFactionName(string factionName)

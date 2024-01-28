@@ -25,7 +25,7 @@ namespace _Scenes.Scripts
         private Transform transform = null;
         private bool isOccupied = false;
 
-        private Resource getResource()
+        public Resource getResource()
         {
             return resource;
         }

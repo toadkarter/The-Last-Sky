@@ -30,6 +30,7 @@ namespace _Scenes.Scripts
             clickDetector.OnValidClick += OnValidClick;
             hud.getSpawnButton().onClick.AddListener(handleSpawnButtonClicked);
             hud.getEndTurnButton().onClick.AddListener(handleEndTurnButton);
+            hud.getHarvestButton().onClick.AddListener(handlePressResourceButton);
             
             initializeTurn();
         }
@@ -84,6 +85,14 @@ namespace _Scenes.Scripts
                 hud.setNumberOfMovesText(hud.getNumberOfMoves() - 1);
                 currentCharacterToken.setCurrentTile(tile);
                 tile.setIsOccupied(true);
+                if (tile.getResource() != Resource.None)
+                {
+                    hud.getHarvestButton().gameObject.SetActive(true);
+                }
+                else
+                {
+                    hud.getHarvestButton().gameObject.SetActive(false);
+                }
             }
         }
 
@@ -125,7 +134,33 @@ namespace _Scenes.Scripts
         {
             isMovementPhase = false;
             storeResourcesAmount(hud.getChemAmount(), hud.getGuanoAmount(), hud.getPlantAmount());
+            hud.harvestButton.gameObject.SetActive(false);
             initializeTurn();
+        }
+
+        private void handlePressResourceButton()
+        {
+            if (currentCharacterToken == null)
+            {
+                Debug.Log("Something went wrong, this is not a valid state.");
+                return;
+            }
+
+            switch (currentCharacterToken.getCurrentTile().getResource())
+            { 
+                case Resource.Chem:
+                    hud.setChemAmount(hud.getChemAmount() + 1);
+                    break;
+                case Resource.Guano:
+                    hud.setGuanoAmount(hud.getGuanoAmount() + 1);
+                    break;
+                case Resource.Plant:
+                    hud.setPlantAmount(hud.getPlantAmount() + 1);
+                    break;
+                case Resource.None: 
+                default:
+                    break;
+            }
         }
     }
 }
