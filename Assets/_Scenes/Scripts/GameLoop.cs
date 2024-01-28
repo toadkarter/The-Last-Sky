@@ -149,12 +149,24 @@ namespace _Scenes.Scripts
             switch (currentCharacterToken.getCurrentTile().getResource())
             { 
                 case Resource.Chem:
+                    if (hud.getChemAmount() >= 1)
+                    {
+                        break;
+                    }
                     hud.setChemAmount(hud.getChemAmount() + 1);
                     break;
                 case Resource.Guano:
+                    if (hud.getGuanoAmount() >= 1)
+                    {
+                        break;
+                    }
                     hud.setGuanoAmount(hud.getGuanoAmount() + 1);
                     break;
                 case Resource.Plant:
+                    if (hud.getPlantAmount() >= 1)
+                    {
+                        break;
+                    }
                     hud.setPlantAmount(hud.getPlantAmount() + 1);
                     break;
                 case Resource.None: 
