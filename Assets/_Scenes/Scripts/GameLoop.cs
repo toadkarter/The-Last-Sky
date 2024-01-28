@@ -40,6 +40,14 @@ namespace _Scenes.Scripts
             initializeTurn();
         }
 
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+        }
+
         public void OnValidClick(GameObject gameObject)
         {
             if (isLaughPhase)
