@@ -17,6 +17,7 @@ namespace _Scenes.Scripts
         [SerializeField] private MeshRenderer meshRenderer = null;
         [SerializeField] private SpawnComponent spawnComponent = null;
         [SerializeField] private Resource resource = Resource.None;
+        [SerializeField] private Faction factionLocation = Faction.Unaligned;
         
         private List<Material> currentMaterials = new List<Material>();
         private List<Material> hoverMaterials = new List<Material>();

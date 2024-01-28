@@ -17,6 +17,18 @@ namespace _Scenes.Scripts
 
         private List<CharacterToken> characterTokens = new List<CharacterToken>();
 
+        public List<CharacterToken> getCharacterTokens()
+        {
+            return characterTokens;
+        }
+
+        public void killCharacter(CharacterToken characterToken)
+        {
+            characterTokens.Remove(characterToken);
+            Destroy(characterToken);
+            maxCharactersAtPlay--;
+        }
+        
         public Faction getFaction()
         {
             return faction;

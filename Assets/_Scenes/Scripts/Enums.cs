@@ -4,6 +4,7 @@
     {
         Police,
         Terrorist,
+        Unaligned,
     }
 
     public enum Resource
@@ -12,5 +13,14 @@
         Chem,
         Plant,
         Guano,
+    }
+
+    public enum LaughOutcome
+    {
+        Success,
+        FailureBribe,
+        FailureNoBribe,
+        Failure,
+        None,
     }
 }
