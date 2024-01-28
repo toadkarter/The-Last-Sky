@@ -79,8 +79,11 @@ namespace _Scenes.Scripts
 
             if (Vector3.Distance(tokenTransform, tileToMoveTransform) == 1)
             {
+                currentCharacterToken.getCurrentTile().setIsOccupied(false);
                 currentCharacterToken.moveToDestination(tileToMoveTransform);
                 hud.setNumberOfMovesText(hud.getNumberOfMoves() - 1);
+                currentCharacterToken.setCurrentTile(tile);
+                tile.setIsOccupied(true);
             }
         }
 

@@ -39,6 +39,7 @@ namespace _Scenes.Scripts
             CharacterToken characterToken = gameObject.GetComponent<CharacterToken>();
             spawnerTile.setIsOccupied(true);
             characterTokens.Add(characterToken);
+            characterToken.setCurrentTile(spawnerTile);
         }
     }
 }

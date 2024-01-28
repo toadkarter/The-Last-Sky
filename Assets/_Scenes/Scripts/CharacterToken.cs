@@ -9,10 +9,21 @@ namespace _Scenes.Scripts
         [SerializeField] private float movementSpeed = 5.0f;
         private bool isMoving = false;
         private Vector3 currentDestination = Vector3.zero;
+        private Tile currentTile = null;
 
         public void Act()
         {
             
+        }
+
+        public Tile getCurrentTile()
+        {
+            return currentTile;
+        }
+
+        public void setCurrentTile(Tile tile)
+        {
+            currentTile = tile;
         }
 
         public Faction GetFaction()

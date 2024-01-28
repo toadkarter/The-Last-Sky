@@ -60,7 +60,7 @@ namespace _Scenes.Scripts
 
         public void setChemAmount(int amount)
         {
-            chemText.text = chemText.text + amount;
+            chemText.text = chemTextLabel + amount;
             chemAmount = amount;
         }
 
