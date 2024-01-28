@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -184,76 +184,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!4 &43452563 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 123546805}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &49692438
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (11)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &65826753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -319,71 +249,180 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &123546805
+--- !u!1 &69305878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+  m_PrefabInstance: {fileID: 605393827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &69305883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69305878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Neutral
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 2
+  isManufacturer: 0
+--- !u!1 &97767109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1763777203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &97767114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97767109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &112599586
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (18)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1811155159}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+--- !u!1001 &113679560
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (22)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1855386842}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &124295376
 GameObject:
   m_ObjectHideFlags: 0
@@ -657,11 +696,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153645549}
   m_CullTransparentMesh: 1
---- !u!4 &168430058 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1543957613}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &172877885
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,71 +830,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 172877885}
   m_CullTransparentMesh: 1
---- !u!1001 &203451981
+--- !u!1001 &196810539
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (25)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 274545006}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &212464301
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -926,16 +955,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!4 &217847226 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 49692438}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &222944659 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1873049791}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &231229287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1017,6 +1036,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
+--- !u!1001 &247897912
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (21)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915138457}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &256470012
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,67 +1217,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256470012}
   m_CullTransparentMesh: 1
---- !u!1001 &257269576
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (20)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &258774329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1264,6 +1282,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1 &274545001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 196810539}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &274545006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274545001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!4 &281199047 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
@@ -1483,11 +1528,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1298463640}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &356897507 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1190205747}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &367334838
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,16 +1662,120 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367334838}
   m_CullTransparentMesh: 1
---- !u!4 &382961741 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1051752960}
+--- !u!1001 &386400275
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 890909735}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+--- !u!1 &398492692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 966526710}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &387517246 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1359848195}
+--- !u!114 &398492697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 398492692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1 &400169205 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1224240955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &400169210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 400169205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1 &400198203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1672,56 +1816,30 @@ Transform:
   - {fileID: 1003874918}
   - {fileID: 653819687}
   - {fileID: 736900859}
-  - {fileID: 1627907552}
   - {fileID: 1795179187}
-  - {fileID: 2102385400}
   - {fileID: 1118283658}
-  - {fileID: 789800516}
   - {fileID: 332281943}
-  - {fileID: 1900525146}
   - {fileID: 1894521248}
-  - {fileID: 526449564}
   - {fileID: 1271165881}
-  - {fileID: 43452563}
   - {fileID: 1553369769}
-  - {fileID: 1753569825}
   - {fileID: 1314262018}
   - {fileID: 874387823}
-  - {fileID: 482093648}
   - {fileID: 1465260878}
-  - {fileID: 217847226}
   - {fileID: 462058809}
-  - {fileID: 168430058}
   - {fileID: 1421893495}
-  - {fileID: 382961741}
   - {fileID: 1710666656}
-  - {fileID: 2105245090}
   - {fileID: 1583335760}
-  - {fileID: 387517246}
   - {fileID: 1166341849}
-  - {fileID: 222944659}
   - {fileID: 1762173280}
-  - {fileID: 625597883}
   - {fileID: 609049059}
-  - {fileID: 1152680990}
   - {fileID: 148804118}
-  - {fileID: 356897507}
   - {fileID: 412917934}
-  - {fileID: 444670911}
   - {fileID: 804880277}
-  - {fileID: 470882807}
   - {fileID: 1227494232}
-  - {fileID: 2071097404}
   - {fileID: 2139488415}
-  - {fileID: 908049879}
   - {fileID: 1644141134}
-  - {fileID: 1648356873}
   - {fileID: 355308657}
-  - {fileID: 1782313569}
   - {fileID: 1762058312}
-  - {fileID: 1778140438}
-  - {fileID: 702780601}
-  - {fileID: 1030913015}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &412917934 stripped
@@ -1729,11 +1847,87 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1252597242}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &444670911 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1055306173}
+--- !u!1 &420501761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 2004438333}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &420501766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 420501761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1 &433169850 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1009992339}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &433169855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433169850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1 &453775731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1060039115}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &453775736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453775731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1 &459475476 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4407114754951791235, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
@@ -1773,81 +1967,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1752371543}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &470882807 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1532682709}
+--- !u!1 &470425113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 537687956}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &473279891
-PrefabInstance:
+--- !u!114 &470425118
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (23)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &482093648 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 554572959}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470425113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1 &507030584 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4407114754951791235, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
@@ -1882,11 +2028,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
   m_PrefabInstance: {fileID: 1438227676}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &526449564 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1272172169}
-  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &537687956
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 470425118}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &539271534
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,71 +2222,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 539271534}
   m_CullTransparentMesh: 1
---- !u!1001 &554572959
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (18)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &581507742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2151,81 +2287,98 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &609049059 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 730706481}
+--- !u!1 &598107590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1600751425}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &625597883 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1710956274}
+--- !u!114 &598107595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &632198616
+  m_GameObject: {fileID: 598107590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &605393827
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (17)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge 1 (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 69305883}
+  m_SourcePrefab: {fileID: 100100000, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+--- !u!4 &609049059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+  m_PrefabInstance: {fileID: 730706481}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &646036436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2634,136 +2787,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &692665391
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (14)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &693693147
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (22)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &696144704
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2829,11 +2852,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &702780601 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 632198616}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +2946,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &705790407 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1370035215}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &705790412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705790407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!4 &720698043 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 391742825081809879, guid: e7980c5d3d2d76744b41ef03b9c5ea19, type: 3}
@@ -2944,6 +2989,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a568a1268854498198c7c73d050d3730, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &727737601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1718104966}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &727737606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727737601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1001 &730706481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3150,71 +3222,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738490586}
   m_CullTransparentMesh: 1
---- !u!1001 &746210765
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &788224027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3280,77 +3287,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &789800516 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 2049554933}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &804880277 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1342605140}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &827201888
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (16)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &860656188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3620,6 +3561,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1367820352}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &883218594
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (19)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1661559598}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &883962147
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3681,6 +3682,93 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
+--- !u!1 &890909730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 386400275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &890909735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 890909730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &896404803
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (4)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2142257733}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &906319094
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3742,11 +3830,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!4 &908049879 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1280782441}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &951275222
 GameObject:
   m_ObjectHideFlags: 0
@@ -3986,6 +4069,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8381b03c7b3442aa5dba4114f8b090e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &966526710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (5)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 398492697}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &984641908
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4056,76 +4199,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
   m_PrefabInstance: {fileID: 1840948088}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1028171249
+--- !u!1001 &1009992339
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (10)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (17)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &1030913015 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 257269576}
-  m_PrefabAsset: {fileID: 0}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 433169855}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1031250900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4194,136 +4327,93 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 459475483}
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!1001 &1051752960
+--- !u!1 &1040541665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1417375199}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1040541670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040541665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &1060039115
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6
+      value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (20)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1055306173
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (19)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 453775736}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1069144819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4528,6 +4618,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 65826753}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1122620148
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (8)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1697192847}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1133864647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4597,211 +4747,98 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!4 &1152680990 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 692665391}
+--- !u!1 &1156999496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+  m_PrefabInstance: {fileID: 2112460309}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1156999501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156999496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Neutral
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 2
+  isManufacturer: 0
 --- !u!4 &1166341849 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 696144704}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1190205747
+--- !u!1001 &1224240955
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (15)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1198832842
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
       value: -2
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1213880517
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_Name
-      value: Countryside (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+      value: Countryside - Grunge (23)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 400169210}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!4 &1227494232 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
@@ -4954,136 +4991,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 860656188}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1272172169
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1280782441
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (24)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1 &1294228056
 GameObject:
   m_ObjectHideFlags: 0
@@ -5275,6 +5182,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 1648018409}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1316622258
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00000005029142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.006
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1832183689}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1342605140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5340,71 +5307,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1359848195
+--- !u!1001 &1366866523
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (14)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1455772184}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1367820352
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5470,6 +5432,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1001 &1370035215
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (9)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 705790412}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &1372020026
 GameObject:
   m_ObjectHideFlags: 0
@@ -5604,6 +5626,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1372020026}
   m_CullTransparentMesh: 1
+--- !u!1001 &1417375199
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1040541670}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!4 &1421893495 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
@@ -5807,6 +5889,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1 &1455772179 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1366866523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1455772184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455772179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!4 &1465260878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
@@ -5906,136 +6015,6 @@ MonoBehaviour:
   title: {fileID: 172877887}
   description: {fileID: 153645551}
   quitButton: {fileID: 256470014}
---- !u!1001 &1532682709
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (21)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!1001 &1543957613
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!1001 &1547889530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6128,6 +6107,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 340771859}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1600751425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (12)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 598107595}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &1612051065
 GameObject:
   m_ObjectHideFlags: 0
@@ -6249,76 +6288,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612051065}
   m_CullTransparentMesh: 1
---- !u!1001 &1622100309
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &1627907552 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 746210765}
+--- !u!1 &1629284674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1947960431}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1629284679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1629284674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!114 &1630348869 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 9104161943362393239, guid: e7980c5d3d2d76744b41ef03b9c5ea19, type: 3}
@@ -6405,16 +6401,65 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &1648356873 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 203451981}
+--- !u!1 &1649545555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1812245527}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1649545560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649545555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!4 &1655538441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
   m_PrefabInstance: {fileID: 22324690}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1661559593 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 883218594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1661559598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1661559593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1 &1670383264
 GameObject:
   m_ObjectHideFlags: 0
@@ -6547,76 +6592,98 @@ MonoBehaviour:
   laughPanel: {fileID: 1772951229}
   playerTurnText: {fileID: 1808685646}
   playerTurnChange: 0
+--- !u!1 &1697192842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1122620148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1697192847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697192842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!4 &1710666656 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 2145472254}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &1710956274
+--- !u!1001 &1718104966
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (13)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1
+      value: -4
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.x
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 727737606}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &1736995653
 GameObject:
   m_ObjectHideFlags: 0
@@ -6803,11 +6870,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &1753569825 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1028171249}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1762058312 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
@@ -6818,6 +6880,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 258774329}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1763777203
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 97767114}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &1772951225
 GameObject:
   m_ObjectHideFlags: 0
@@ -6929,16 +7051,6 @@ MonoBehaviour:
   noneTitle: YOU SCREWED UP
   noneDescription: The imbeciles in your lab accidentally laced your drug with the
     wrong substances - it has no effect.
---- !u!4 &1778140438 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 827201888}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1782313569 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 473279891}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1793541049 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
@@ -7187,6 +7299,93 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1811155154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 112599586}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1811155159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811155154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &1812245527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (10)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1649545560}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &1827912739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7252,6 +7451,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1 &1832183684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 1316622258}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1832183689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832183684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1001 &1840948088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7313,6 +7539,33 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
+--- !u!1 &1855386837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 113679560}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1855386842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855386837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1001 &1864154821
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7394,71 +7647,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
---- !u!1001 &1873049791
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (12)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
 --- !u!4 &1877954592 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3918948791595079737, guid: d2bde48343a0df547babee1d7ecad8fc, type: 3}
@@ -7590,11 +7778,180 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 984641908}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1900525146 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1622100309}
+--- !u!1 &1915138452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 247897912}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1915138457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915138452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &1947960431
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (16)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1629284679}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+--- !u!1 &1992620901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 2017098537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1992620906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992620901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
+--- !u!1001 &2004438333
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (13)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 420501766}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1001 &2006259464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7660,6 +8017,66 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1001 &2017098537
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge (11)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1992620906}
+  m_SourcePrefab: {fileID: 100100000, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
 --- !u!1 &2029162572
 GameObject:
   m_ObjectHideFlags: 0
@@ -7711,76 +8128,6 @@ MonoBehaviour:
   clickDetector: {fileID: 963194230}
   hud: {fileID: 1670383269}
   tile: {fileID: 459475478}
---- !u!1001 &2049554933
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 400198204}
-    m_Modifications:
-    - target: {fileID: 360892259808909151, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_Name
-      value: Countryside (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.044999886
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9036146014792133009, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-      propertyPath: factionLocation
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
---- !u!4 &2071097404 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 693693147}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2080348231
 GameObject:
   m_ObjectHideFlags: 0
@@ -7916,16 +8263,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080348231}
   m_CullTransparentMesh: 1
---- !u!4 &2102385400 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1198832842}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &2105245090 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
-  m_PrefabInstance: {fileID: 1213880517}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2109690744
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7991,11 +8328,98 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
+--- !u!1001 &2112460309
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      propertyPath: m_Name
+      value: Countryside - Grunge 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1156999501}
+  m_SourcePrefab: {fileID: 100100000, guid: 416e1fdc12a151745af0247622ec6096, type: 3}
 --- !u!4 &2139488415 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1029623601011707365, guid: fa0d20cce04613346b9bbae25af0854c, type: 3}
   m_PrefabInstance: {fileID: 646294080}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2142257728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 78aebefce27c7a44f856615ee75001ac, type: 3}
+  m_PrefabInstance: {fileID: 896404803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2142257733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142257728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1eb99fe2a87e40bf9f4ecf9235fbe5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  title: Countryside - Grunge
+  description: 
+  hasInfo: 0
+  hoverMaterial: {fileID: 0}
+  clickMaterial: {fileID: 0}
+  meshRenderer: {fileID: 0}
+  spawnComponent: {fileID: 0}
+  resource: 0
+  factionLocation: 0
+  isManufacturer: 0
 --- !u!1001 &2145472254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8140,3 +8564,29 @@ SceneRoots:
   - {fileID: 1670383268}
   - {fileID: 658225096}
   - {fileID: 400198204}
+  - {fileID: 196810539}
+  - {fileID: 1316622258}
+  - {fileID: 386400275}
+  - {fileID: 1417375199}
+  - {fileID: 896404803}
+  - {fileID: 966526710}
+  - {fileID: 537687956}
+  - {fileID: 1763777203}
+  - {fileID: 1122620148}
+  - {fileID: 1370035215}
+  - {fileID: 1812245527}
+  - {fileID: 2017098537}
+  - {fileID: 1600751425}
+  - {fileID: 2004438333}
+  - {fileID: 1366866523}
+  - {fileID: 1718104966}
+  - {fileID: 1947960431}
+  - {fileID: 1009992339}
+  - {fileID: 112599586}
+  - {fileID: 883218594}
+  - {fileID: 1060039115}
+  - {fileID: 247897912}
+  - {fileID: 113679560}
+  - {fileID: 1224240955}
+  - {fileID: 2112460309}
+  - {fileID: 605393827}
