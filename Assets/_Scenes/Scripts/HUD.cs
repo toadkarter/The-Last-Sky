@@ -28,11 +28,11 @@ namespace _Scenes.Scripts
             { LaughOutcome.None, LaughOutcome.Failure, LaughOutcome.Success };
         private int numberOfMoves = 0;
         private int chemAmount = 0;
-        private string chemTextLabel = "Chem: ";
+        private string chemTextLabel = "Clover: ";
         private int plantAmount = 0;
-        private string plantTextLabel = "Plant: ";
+        private string plantTextLabel = "Grass: ";
         private int guanoAmount = 0;
-        private string guanoTextLabel = "Guano: ";
+        private string guanoTextLabel = "Popcorn: ";
 
         public bool playerTurnChange = false;
         private bool turnChangeTextIsDelaying = false;

@@ -102,13 +102,13 @@ namespace _Scenes.Scripts
             {
                 case LaughOutcome.None:
                 {
-                    hud.laughPanel.ShowOutcomeState(outcome);   
+                    hud.laughPanel.ShowOutcomeState(outcome, getCurrentPlayer().getFaction());   
                     break;
                 }
                 case LaughOutcome.Success:
                 {
                     getEnemyPlayer().killCharacter(enemyToken);
-                    hud.laughPanel.ShowOutcomeState(outcome);
+                    hud.laughPanel.ShowOutcomeState(outcome, getCurrentPlayer().getFaction());
                     if (getCurrentPlayer().getFaction() == Faction.Police)
                     {
                         hud.laughMeter.increasePoliceLaughIndex();
@@ -116,6 +116,11 @@ namespace _Scenes.Scripts
                     else if (getCurrentPlayer().getFaction() == Faction.Terrorist)
                     {
                         hud.laughMeter.increaseTerroristLaughIndex();
+                    }
+
+                    if (hud.laughMeter.isWinner)
+                    {
+                        hud.laughPanel.ShowWinnerState(getCurrentPlayer().getFaction());
                     }
                     
                     break;
@@ -135,7 +140,7 @@ namespace _Scenes.Scripts
         {
             if (enemyToken.getCurrentTile().getFactionLocation() == getCurrentPlayer().getFaction())
             {
-                hud.laughPanel.ShowOutcomeState(LaughOutcome.Failure);
+                hud.laughPanel.ShowOutcomeState(LaughOutcome.Failure, getCurrentPlayer().getFaction());
                 getEnemyPlayer().killCharacter(enemyToken);
             }
             else
@@ -146,7 +151,7 @@ namespace _Scenes.Scripts
                     if (getEnemyPlayer().chemAmount >= 1)
                     {
                         getEnemyPlayer().chemAmount -= 1;
-                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe);
+                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe, getCurrentPlayer().getFaction());
                         return;
                     }
                 }
@@ -155,12 +160,12 @@ namespace _Scenes.Scripts
                     if (getEnemyPlayer().plantAmount >= 1)
                     {
                         getEnemyPlayer().plantAmount -= 1;
-                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe);
+                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe, getCurrentPlayer().getFaction());
                         return;
                     }
                 }
                 
-                hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureNoBribe);
+                hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureNoBribe, getCurrentPlayer().getFaction());
             }
         }
 
