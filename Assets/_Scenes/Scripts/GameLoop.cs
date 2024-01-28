@@ -99,7 +99,16 @@ namespace _Scenes.Scripts
                 case LaughOutcome.Success:
                 {
                     getEnemyPlayer().killCharacter(enemyToken);
-                    hud.laughPanel.ShowOutcomeState(outcome);   
+                    hud.laughPanel.ShowOutcomeState(outcome);
+                    if (getCurrentPlayer().getFaction() == Faction.Police)
+                    {
+                        hud.laughMeter.increasePoliceLaughIndex();
+                    }
+                    else if (getCurrentPlayer().getFaction() == Faction.Terrorist)
+                    {
+                        hud.laughMeter.increaseTerroristLaughIndex();
+                    }
+                    
                     break;
                 }
                 case LaughOutcome.Failure:

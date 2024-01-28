@@ -26,7 +26,11 @@ namespace _Scenes.Scripts
         [SerializeField] private string failureDescription;
         [SerializeField] private string noneTitle;
         [SerializeField] private string noneDescription;
+        [SerializeField] private string winnerTitle;
+        [SerializeField] private string winnerDescription;
 
+        private bool isQuitting = false;
+        
         Dictionary<LaughOutcome, Tuple<string, string>> outcomeDescription = new Dictionary<LaughOutcome, Tuple<string, string>>();
 
         private void Start()
@@ -45,6 +49,11 @@ namespace _Scenes.Scripts
 
         private void handleContinueButtonPressed()
         {
+            if (isQuitting)
+            {
+                Application.Quit();
+                return;
+            }
             gameObject.SetActive(false);
         }
 
@@ -60,6 +69,14 @@ namespace _Scenes.Scripts
             gameObject.SetActive(true);
             killPanelTitleText.text = outcomeDescription[outcome].Item1;
             killPanelDescriptionText.text = outcomeDescription[outcome].Item2;
+        }
+
+        public void ShowWinnerState()
+        {
+            isQuitting = true;
+            gameObject.SetActive(true);
+            killPanelTitleText.text = winnerTitle;
+            killPanelDescriptionText.text = winnerDescription;
         }
     }
 }

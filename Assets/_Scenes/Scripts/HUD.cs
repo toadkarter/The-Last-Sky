@@ -21,6 +21,7 @@ namespace _Scenes.Scripts
         [SerializeField] public Button harvestButton = null;
         [SerializeField] public LaughPanel laughPanel = null;
         [SerializeField] public TextMeshProUGUI playerTurnText = null;
+        [SerializeField] public LaughMeter laughMeter = null;
 
 
         private List<LaughOutcome> laughOutcomes = new List<LaughOutcome>()
