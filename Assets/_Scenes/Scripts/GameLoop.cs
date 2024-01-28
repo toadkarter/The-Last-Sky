@@ -207,6 +207,7 @@ namespace _Scenes.Scripts
             switchPlayers();
             initializeSanctionsMoves();
             hud.setFactionName(getCurrentPlayer().getFactionName());
+            hud.playerTurnChange = true;
             loadResourcesAmount(hud.getChemAmount(), hud.getGuanoAmount(), hud.getPlantAmount());
         }
 

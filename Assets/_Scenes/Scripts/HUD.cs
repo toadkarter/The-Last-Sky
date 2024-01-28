@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -19,6 +20,7 @@ namespace _Scenes.Scripts
         [SerializeField] public TextMeshProUGUI guanoText = null;
         [SerializeField] public Button harvestButton = null;
         [SerializeField] public LaughPanel laughPanel = null;
+        [SerializeField] public TextMeshProUGUI playerTurnText = null;
 
 
         private List<LaughOutcome> laughOutcomes = new List<LaughOutcome>()
@@ -31,6 +33,9 @@ namespace _Scenes.Scripts
         private int guanoAmount = 0;
         private string guanoTextLabel = "Guano: ";
 
+        public bool playerTurnChange = false;
+        private bool turnChangeTextIsDelaying = false;
+        private bool turnChangeTextIsReversing = false;
 
         public LaughPanel getLaughPanel()
         {
@@ -39,8 +44,33 @@ namespace _Scenes.Scripts
         
         private void Start()
         {
+            playerTurnText.alpha = 0f;
             infoPanel.SetVisibility(false);
             harvestButton.gameObject.SetActive(false);
+        }
+
+        private void Update()
+        {
+            if (playerTurnChange)
+            {
+                playerTurnText.alpha += Time.deltaTime / 0.5f;
+                
+                if (playerTurnText.alpha >= 1.0)
+                {
+                    StartCoroutine(Delay());
+                    playerTurnChange = false;
+                    turnChangeTextIsReversing = true;
+                }
+            }
+            else if (turnChangeTextIsReversing)
+            {
+                playerTurnText.alpha -= Time.deltaTime / 0.5f;
+
+                if (playerTurnText.alpha <= 0.0)
+                {
+                    turnChangeTextIsReversing = false;
+                }
+            }
         }
 
         public Button getSpawnButton()
@@ -105,6 +135,11 @@ namespace _Scenes.Scripts
         public int getPlantAmount()
         {
             return plantAmount;
+        }
+
+        IEnumerator Delay()
+        {
+            yield return new WaitForSeconds(1f);
         }
 
     public InfoPanel InfoPanel => infoPanel;
