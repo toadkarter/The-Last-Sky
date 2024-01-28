@@ -18,6 +18,7 @@ namespace _Scenes.Scripts
         [SerializeField] private SpawnComponent spawnComponent = null;
         [SerializeField] private Resource resource = Resource.None;
         [SerializeField] private Faction factionLocation = Faction.Unaligned;
+        [SerializeField] private bool isManufacturer = false;
         
         private List<Material> currentMaterials = new List<Material>();
         private List<Material> hoverMaterials = new List<Material>();
@@ -29,6 +30,16 @@ namespace _Scenes.Scripts
         public Resource getResource()
         {
             return resource;
+        }
+
+        public Faction getFactionLocation()
+        {
+            return factionLocation;
+        }
+
+        public bool getIsManufacturer()
+        {
+            return isManufacturer;
         }
         
 

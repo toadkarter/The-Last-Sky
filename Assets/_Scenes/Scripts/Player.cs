@@ -10,6 +10,7 @@ namespace _Scenes.Scripts
         [SerializeField] private GameObject characterTokenClass;
         [SerializeField] private int maxCharactersAtPlay = 5;
         [SerializeField] private string factionName;
+        [SerializeField] private Resource extraIngredientForLaugh = Resource.None;
 
         public int chemAmount = 0;
         public int plantAmount = 0;
@@ -17,6 +18,11 @@ namespace _Scenes.Scripts
 
         private List<CharacterToken> characterTokens = new List<CharacterToken>();
 
+        public Resource getExtraIngredientForLaugh()
+        {
+            return extraIngredientForLaugh;
+        }
+        
         public List<CharacterToken> getCharacterTokens()
         {
             return characterTokens;

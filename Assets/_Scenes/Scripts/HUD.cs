@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -17,8 +18,11 @@ namespace _Scenes.Scripts
         [SerializeField] public TextMeshProUGUI chemText = null;
         [SerializeField] public TextMeshProUGUI guanoText = null;
         [SerializeField] public Button harvestButton = null;
+        [SerializeField] public LaughPanel laughPanel = null;
 
 
+        private List<LaughOutcome> laughOutcomes = new List<LaughOutcome>()
+            { LaughOutcome.None, LaughOutcome.Failure, LaughOutcome.Success };
         private int numberOfMoves = 0;
         private int chemAmount = 0;
         private string chemTextLabel = "Chem: ";
@@ -27,6 +31,12 @@ namespace _Scenes.Scripts
         private int guanoAmount = 0;
         private string guanoTextLabel = "Guano: ";
 
+
+        public LaughPanel getLaughPanel()
+        {
+            return laughPanel;
+        }
+        
         private void Start()
         {
             infoPanel.SetVisibility(false);

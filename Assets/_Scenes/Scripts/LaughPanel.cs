@@ -31,14 +31,35 @@ namespace _Scenes.Scripts
 
         private void Start()
         {
+            continueButton.onClick.AddListener(handleContinueButtonPressed);
             gameObject.SetActive(false);
             outcomeDescription = new Dictionary<LaughOutcome, Tuple<string, string>>()
             {
                 { LaughOutcome.None, new Tuple<string, string>(noneTitle, noneDescription) },
                 { LaughOutcome.FailureBribe, new Tuple<string, string>(failureBribeTitle, failureBribeDescription) },
                 { LaughOutcome.FailureNoBribe, new Tuple<string, string>(failureNoBribeTitle, failureNoBribeDescription) },
+                { LaughOutcome.Failure, new Tuple<string, string>(failureTitle, failureDescription) },
                 { LaughOutcome.Success, new Tuple<string, string>(successTitle, successDescription) },
             };
+        }
+
+        private void handleContinueButtonPressed()
+        {
+            gameObject.SetActive(false);
+        }
+
+        public void ShowDefaultState()
+        {
+            gameObject.SetActive(true);
+            killPanelTitleText.text = title;
+            killPanelDescriptionText.text = description;
+        }
+
+        public void ShowOutcomeState(LaughOutcome outcome)
+        {
+            gameObject.SetActive(true);
+            killPanelTitleText.text = outcomeDescription[outcome].Item1;
+            killPanelDescriptionText.text = outcomeDescription[outcome].Item2;
         }
     }
 }

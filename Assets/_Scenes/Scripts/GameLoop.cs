@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using UnityEngine;
 using Random = System.Random;
 
@@ -22,6 +23,10 @@ namespace _Scenes.Scripts
         private Random random = new Random();
 
         private bool isMovementPhase = false;
+        private bool isLaughPhase = false;
+
+        private List<LaughOutcome> laughOutcomes = new List<LaughOutcome>() { LaughOutcome.Failure, LaughOutcome.None, LaughOutcome.Success };
+        
         private CharacterToken currentCharacterToken = null;
 
         private void Start()
@@ -37,6 +42,17 @@ namespace _Scenes.Scripts
 
         public void OnValidClick(GameObject gameObject)
         {
+            if (isLaughPhase)
+            {
+                CharacterToken enemyToken = gameObject.GetComponent<CharacterToken>();
+                if (enemyToken != null && enemyToken.GetFaction() != getCurrentPlayer().getFaction())
+                {
+                    HandleLaughPhase(enemyToken);
+                }
+
+                return;
+            }
+            
             Tile tile = gameObject.GetComponent<Tile>();
             if (tile != null)
             {
@@ -58,9 +74,84 @@ namespace _Scenes.Scripts
             }
         }
 
+        void HandleLaughPhase(CharacterToken enemyToken)
+        {
+            hud.setGuanoAmount(hud.getGuanoAmount() - 1);
+            if (getCurrentPlayer().getExtraIngredientForLaugh() == Resource.Chem)
+            {
+                hud.setChemAmount(hud.getChemAmount() - 1);
+            }
+            else if (getCurrentPlayer().getExtraIngredientForLaugh() == Resource.Plant)
+            {
+                hud.setPlantAmount(hud.getPlantAmount() - 1);
+            }
+            
+            int outcomeIndex = random.Next(laughOutcomes.Count - 1);
+            LaughOutcome outcome = laughOutcomes[outcomeIndex];
+
+            switch (outcome)
+            {
+                case LaughOutcome.None:
+                {
+                    hud.laughPanel.ShowOutcomeState(outcome);   
+                    break;
+                }
+                case LaughOutcome.Success:
+                {
+                    getEnemyPlayer().killCharacter(enemyToken);
+                    hud.laughPanel.ShowOutcomeState(outcome);   
+                    break;
+                }
+                case LaughOutcome.Failure:
+                {
+                    HandleFailureState(enemyToken);
+                    break;
+                }
+            }
+            
+            isLaughPhase = false;
+            handleEndTurnButton();
+        }
+
+        void HandleFailureState(CharacterToken enemyToken)
+        {
+            if (enemyToken.getCurrentTile().getFactionLocation() == getCurrentPlayer().getFaction())
+            {
+                hud.laughPanel.ShowOutcomeState(LaughOutcome.Failure);
+            }
+            else
+            {
+                if (getCurrentPlayer().getExtraIngredientForLaugh() == Resource.Chem)
+                {
+                    if (getEnemyPlayer().chemAmount >= 1)
+                    {
+                        getEnemyPlayer().chemAmount -= 1;
+                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe);
+                        return;
+                    }
+                }
+                else if (getCurrentPlayer().getExtraIngredientForLaugh() == Resource.Plant)
+                {
+                    if (getEnemyPlayer().plantAmount >= 1)
+                    {
+                        getEnemyPlayer().plantAmount -= 1;
+                        hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureBribe);
+                        return;
+                    }
+                }
+                
+                hud.laughPanel.ShowOutcomeState(LaughOutcome.FailureNoBribe);
+            }
+        }
+
         private Player getCurrentPlayer()
         {
             return players[currentPlayerIndex];
+        }
+
+        private Player getEnemyPlayer()
+        {
+            return currentPlayerIndex == 0 ? players[1] : players[0];
         }
         
         private void handleSpawnButtonClicked()
@@ -93,6 +184,12 @@ namespace _Scenes.Scripts
                 {
                     hud.getHarvestButton().gameObject.SetActive(false);
                 }
+
+                if (tile.getIsManufacturer() && playerHasEnoughForLaugh())
+                {
+                    isLaughPhase = true;
+                    hud.laughPanel.ShowDefaultState();
+                }
             }
         }
 
@@ -117,8 +214,7 @@ namespace _Scenes.Scripts
             hud.setGuanoAmount(guanoAmount);
             hud.setPlantAmount(plantAmount);
         }
-        
-        
+
         private void switchPlayers()
         {
             currentPlayerIndex = currentPlayerIndex == 0 ? 1 : 0;
@@ -173,6 +269,40 @@ namespace _Scenes.Scripts
                 default:
                     break;
             }
+        }
+
+        private bool playerHasEnoughForLaugh()
+        {
+            if (hud.getGuanoAmount() <= 0)
+            {
+                return false;
+            }
+
+            switch (getCurrentPlayer().getExtraIngredientForLaugh())
+            {
+                case Resource.Chem:
+                    if (hud.getChemAmount() >= 1)
+                    {
+                        return true;
+                    }
+
+                    break;
+                case Resource.Plant:
+                    if (hud.getPlantAmount() >= 1)
+                    {
+                        return true;
+                    }
+
+                    break;
+                
+                case Resource.Guano:
+                case Resource.None:
+                default:
+                    break;
+                
+            }
+
+            return false;
         }
     }
 }
