@@ -96,7 +96,8 @@ namespace _Scenes.Scripts
             
             int outcomeIndex = random.Next(laughOutcomes.Count - 1);
             LaughOutcome outcome = laughOutcomes[outcomeIndex];
-
+            // LaughOutcome outcome = LaughOutcome.Success;
+            
             switch (outcome)
             {
                 case LaughOutcome.None:
@@ -135,9 +136,11 @@ namespace _Scenes.Scripts
             if (enemyToken.getCurrentTile().getFactionLocation() == getCurrentPlayer().getFaction())
             {
                 hud.laughPanel.ShowOutcomeState(LaughOutcome.Failure);
+                getEnemyPlayer().killCharacter(enemyToken);
             }
             else
             {
+                getEnemyPlayer().killCharacter(enemyToken);
                 if (getCurrentPlayer().getExtraIngredientForLaugh() == Resource.Chem)
                 {
                     if (getEnemyPlayer().chemAmount >= 1)

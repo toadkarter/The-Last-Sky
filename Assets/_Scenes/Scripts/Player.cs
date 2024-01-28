@@ -31,7 +31,7 @@ namespace _Scenes.Scripts
         public void killCharacter(CharacterToken characterToken)
         {
             characterTokens.Remove(characterToken);
-            Destroy(characterToken);
+            Destroy(characterToken.gameObject);
             maxCharactersAtPlay--;
         }
         
