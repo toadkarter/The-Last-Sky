@@ -190,6 +190,15 @@ namespace _Scenes.Scripts
                     isLaughPhase = true;
                     hud.laughPanel.ShowDefaultState();
                 }
+
+                if (tile.getIsOccupied() && playerOnSameTileAsEnemy(tile))
+                {
+                    if (getEnemyPlayer().guanoAmount >= 1)
+                    {
+                        getEnemyPlayer().guanoAmount -= 1;
+                        getCurrentPlayer().guanoAmount += 1;
+                    }
+                }
             }
         }
 
@@ -300,6 +309,19 @@ namespace _Scenes.Scripts
                 default:
                     break;
                 
+            }
+
+            return false;
+        }
+
+        private bool playerOnSameTileAsEnemy(Tile tile)
+        {
+            foreach (CharacterToken enemyToken in getEnemyPlayer().getCharacterTokens())
+            {
+                if (currentCharacterToken.getCurrentTile() == enemyToken.getCurrentTile())
+                {
+                    return true;
+                }
             }
 
             return false;
